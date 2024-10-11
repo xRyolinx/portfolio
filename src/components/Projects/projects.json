@@ -1,0 +1,53 @@
+{
+    "projects": [
+        {
+            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "title": "Jude Beauty",
+            "description": "A website made for a make up artist. It allowed her to showcase her work, advertise her services, and build an online presence. An admin panel was made to allow her to edit any section or service on the website.",
+            "github": false,
+            "demo": "https://jude-beauty.netlify.app/"
+        },
+        {
+            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "title": "EURL Dari Facile Plus",
+            "description": "An e-commerce website for the company 'EURL Dari Facile Plus' specialized in selling household products. This web app allowed it to put up its products online, while also using meta ads more effectively, thereby increasing its sales.",
+            "github": false,
+            "demo": "https://darifacileplus.dz/"
+        },
+        {
+            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "title": "The Castle School",
+            "description": "A landing page for a school focusing on language courses. It wanted to have an official online identity while starting to work on its online presence. An admin page was made to allow it to edit any section on the website.",
+            "github": false,
+            "demo": "https://thecastleschool.netlify.app/"
+        },
+        {
+            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "title": "Lux GlucoCheck",
+            "description": "Official website of a startup, fully made of student. Their creative solution combines engineering to break into the medical field. To protect their idea, they had to sign up in startup.dz, thereby needing an online presence. An admin page was made to allow them to edit any section on the website.",
+            "github": false,
+            "demo": "https://lgc-dz.com/"
+        },
+        {
+            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "title": "ETIC Check",
+            "description": "A check-in website made for ETIC club. It allows to automate the check-in of events' participants with QR codes sent prior. Each QR code is only usable once to avoid its abuse if leaked.<br>To test it out:<br>Username: Manil<br>Password: manil2004",
+            "github": "https://github.com/xRyolinx/etic-check/",
+            "demo": "https://etic-check.onrender.com/"
+        },
+        {
+            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "title": "Taste IT",
+            "description": "A multi-seller plateform in the food industry. It allows people to create an account to buy from stores, while allowing them to create multiple stores to sell their own products online. Ideal for lovers of home made dishes.",
+            "github": "https://github.com/xRyolinx/tasteit",
+            "demo": false
+        },
+        {
+            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "title": "Chaleurs Artisanales",
+            "description": "E-commerce web application dedicated to selling custom candles. It allows the shop to put up their products online, thereby increasing its sales. An admin panel was fully made to allow to add, edit or delete any product on the website.",
+            "github": "https://github.com/xRyolinx/ecommerce",
+            "demo": "https://chaleursartisanales.netlify.app/"
+        }
+    ]
+}
