@@ -3,26 +3,36 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
 } from "react-icons/si";
 
+import {
+  DiGit,
+} from "react-icons/di";
+
+
 function Toolstack() {
+  // design
+  const xs = 4
+  const md = 2
+
+  // tools
+  const tools = [
+    <SiVisualstudiocode/>,
+    <DiGit/>,
+    <SiPostman/>,
+
+  ]
+
+  // component
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
+      {
+        tools.map((tool) => (
+          <Col xs={xs} md={md} className="tech-icons">
+            { tool }
+          </Col>
+        ))
+      }
     </Row>
   );
 }

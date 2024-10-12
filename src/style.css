@@ -741,3 +741,16 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+
+#img-home {
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+
+#about-desc > * {
+  text-align: center !important;
+}
