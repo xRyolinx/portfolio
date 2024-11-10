@@ -16,6 +16,13 @@
         },
         {
             "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "title": "Lego Creation",
+            "description": "A web game made for the Welcome Day of ETIC Club. Users can assemble and create their personal lego characters, while practicing their CSS skills! Beginners can also learn the basics of HTML and CSS through the help page.",
+            "github": false,
+            "demo": "https://lego-creation.vercel.app/"
+        },
+        {
+            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
             "title": "EURL Dari Facile Plus",
             "description": "An e-commerce website for the company 'EURL Dari Facile Plus' specialized in selling household products. This web app allowed it to put up its products online, while also using meta ads more effectively, thereby increasing its sales.",
             "github": false,
