@@ -2,6 +2,13 @@
     "projects": [
         {
             "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "title": "FinanceIT",
+            "description": "This AI-powered platform is designed for businesses to streamline their monthly transaction analysis. After uploading transaction data, the AI organizes and analyzes the information, generating reports with actionable insights for improvement. Additionally, it provides forecasts for the next month's expected transactions.",
+            "github": false,
+            "demo": "https://apicalypse.vercel.app/"
+        },
+        {
+            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
             "title": "Jude Beauty",
             "description": "A website made for a make up artist. It allowed her to showcase her work, advertise her services, and build an online presence. An admin panel was made to allow her to edit any section or service on the website.",
             "github": false,
