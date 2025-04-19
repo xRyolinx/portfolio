@@ -2,6 +2,13 @@
     "projects": [
         {
             "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "title": "Dar Hattan",
+            "description": "A full-stack e-commerce platform for selling premium qamis, built with React and Node.js. It features a smooth user experience, intuitive product browsing, secure ordering, and a comprehensive admin panel for managing products, orders, and users.",
+            "github": false,
+            "demo": "https://dar-hattan.com/"
+        },
+        {
+            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
             "title": "FinanceIT",
             "description": "This AI-powered platform is designed for businesses to streamline their monthly transaction analysis. After uploading transaction data, the AI organizes and analyzes the information, generating reports with actionable insights for improvement. Additionally, it provides forecasts for the next month's expected transactions.",
             "github": false,
@@ -9,10 +16,10 @@
         },
         {
             "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
-            "title": "Jude Beauty",
+            "title": "Makeup By Yam",
             "description": "A website made for a make up artist. It allowed her to showcase her work, advertise her services, and build an online presence. An admin panel was made to allow her to edit any section or service on the website.",
             "github": false,
-            "demo": "https://jude-beauty.netlify.app/"
+            "demo": "https://makeup-yam.com/"
         },
         {
             "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
@@ -55,13 +62,6 @@
             "description": "A multi-seller plateform in the food industry. It allows people to create an account to buy from stores, while allowing them to create multiple stores to sell their own products online. Ideal for lovers of home made dishes.",
             "github": "https://github.com/xRyolinx/tasteit",
             "demo": false
-        },
-        {
-            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
-            "title": "Chaleurs Artisanales",
-            "description": "E-commerce web application dedicated to selling custom candles. It allows the shop to put up their products online, thereby increasing its sales. An admin panel was fully made to allow to add, edit or delete any product on the website.",
-            "github": "https://github.com/xRyolinx/ecommerce",
-            "demo": "https://chaleursartisanales.netlify.app/"
         }
     ]
 }
