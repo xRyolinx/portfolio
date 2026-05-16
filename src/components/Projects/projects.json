@@ -1,67 +1,503 @@
 {
     "projects": [
         {
-            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "slug": "aynya",
+            "title": "AYNYA",
+            "subtitle": "Voice-First Agentic Accessibility OS",
+            "summary": "An eyes-free AI operating layer designed for the visually impaired, enabling full device autonomy through a pure vocal interface and autonomous agent reasoning.",
+            "details": [
+                "Voice-Driven UX: Engineered a seamless STT/TTS pipeline allowing users to navigate any app solely via natural language, eliminating the need for screen interaction.",
+                "Universal UI Interpretation: Leverages Accessibility Services to transform complex visual UI hierarchies into structured data for LLM processing.",
+                "Agentic Action Loops: A reasoning engine that plans and executes multi-step tasks (e.g., 'Order a taxi to my home') by navigating third-party apps autonomously.",
+                "Proactive Feedback System: Real-time vocal status updates and clarification cycles when the agent encounters ambiguous UI elements or requires user confirmation."
+            ],
+            "stack": [
+                "Voice Recognition (STT/TTS)",
+                "Android Accessibility Services",
+                "LLM Agents",
+                "Task Planning",
+                "Reactive UI Mapping"
+            ],
+            "media": [
+                {
+                    "src": "media/aynya/logo.png",
+                    "alt": "AYNYA Logo",
+                    "type": "img"
+                },
+                {
+                    "src": "media/aynya/demo.mp4",
+                    "alt": "Demo",
+                    "type": "video"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": null
+            }
+        },
+        {
+            "slug": "agriscan",
+            "title": "AgriScan",
+            "subtitle": "Precision Agriculture & AI Ecosystem",
+            "summary": "A comprehensive mobile startup platform empowering farmers with AI-driven insights, automated crop diagnostics, and a direct supplier marketplace.",
+            "details": [
+                "Multimodal AI Pipeline: Integrated OCR to process plant scans, feeding extracted data into a RAG (Retrieval-Augmented Generation) architecture for precise disease diagnosis and treatment protocols.",
+                "Autonomous Weather Analysis: Real-time integration with weather APIs, using LLMs to correlate forecast data with specific farm metadata (soil type, crop stage) to deliver proactive risk alerts.",
+                "Agricultural Copilot: Context-aware chatbot for instant farming advice based on global best practices.",
+                "Integrated Marketplace: End-to-end shop connecting farmers directly with suppliers for seeds, fertilizers, and equipment."
+            ],
+            "stack": [
+                "RAG",
+                "OCR",
+                "Multimodal AI",
+                "Kotlin (Mobile)",
+                "Express.js",
+                "Weather APIs"
+            ],
+            "media": [
+                {
+                    "src": "media/agriscan/home.png",
+                    "alt": "AgriScan Home Screen",
+                    "type": "img"
+                },
+                {
+                    "src": "media/agriscan/scan.mp4",
+                    "alt": "Scan Demo",
+                    "type": "video"
+                },
+                {
+                    "src": "media/agriscan/chatbot.mp4",
+                    "alt": "Chatbot Demo",
+                    "type": "video"
+                },
+                {
+                    "src": "media/agriscan/notif.mp4",
+                    "alt": "Smart Notification Demo",
+                    "type": "video"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": null
+            }
+        },
+        {
+            "slug": "valid-ai",
+            "title": "ValidAi",
+            "subtitle": "Smart Lab Management & Test Optimizer",
+            "summary": "A specialized LIMS (Laboratory Information Management System) designed to streamline pharmaceutical product validation and optimize testing protocols through historical data analysis.",
+            "details": [
+                "Intelligent Protocol Optimization: Developed a recommendation engine that suggests reductions in testing repetitions (e.g., from 3 to 2 reps) based on historical stability and performance, directly decreasing lab workload.",
+                "Regulatory Compliance Engine: Built-in validation logic strictly following ICH Q2 (Validation of Analytical Procedures) and ICH Q14 (Analytical Procedure Development) guidelines.",
+                "Talk-to-Data RAG: Integrated a conversational AI assistant allowing lab technicians to query product life cycles, test histories, and complex validation data using natural language.",
+                "Comprehensive Validation Tracking: Digital management of linearity and accuracy tests (multi-level/multi-repetition) with automated KPI dashboards and performance visualization."
+            ],
+            "stack": [
+                "RAG Architecture",
+                "Expert Systems",
+                "Pharma Compliance (ICH)",
+                "Data Analytics",
+                "React",
+                "Node.js"
+            ],
+            "media": [
+                {
+                    "src": "media/validai_test1.png",
+                    "alt": "Laboratory Validation Dashboard",
+                    "type": "img"
+                },
+                {
+                    "src": "media/validai_vid.mp4",
+                    "alt": "Laboratory Validation Dashboard",
+                    "type": "video"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": null
+            }
+        },
+        {
+            "slug": "al-mizan",
+            "title": "Al-Mizan",
+            "subtitle": "AI-Powered Public Procurement Management Platform",
+            "summary": "A digital platform designed to modernize and streamline the entire public procurement lifecycle, from tender publication to bid evaluation and contract monitoring, enhanced with AI-assisted analysis and decision support.",
+            "details": [
+                "End-to-End Procurement Digitalization: Covers the full lifecycle of public tenders including publication, supplier submissions, evaluation committees, and contract attribution.",
+                "Structured Workflow & Compliance: Implements strict multi-stage validation workflows to ensure transparency, traceability, and regulatory compliance in public procurement procedures.",
+                "AI-Assisted Analysis: Integrates AI tools capable of analyzing submitted bids, highlighting inconsistencies, extracting key information from documents, and assisting evaluators during decision-making.",
+                "Document & Audit Management: Centralizes procurement documents, bid files, and evaluation reports while maintaining a complete audit trail of all actions performed on the platform."
+            ],
+            "stack": [
+                "Next.js",
+                "Node.js",
+                "Microservices",
+                "PostgreSQL",
+                "Docker",
+                "AI Document Analysis"
+            ],
+            "media": [
+                {
+                    "src": "media/almizan/dashboard.png",
+                    "alt": "Procurement management dashboard",
+                    "type": "img"
+                },
+                {
+                    "src": "media/almizan/tenders.png",
+                    "alt": "Tender management interface",
+                    "type": "img"
+                },
+                {
+                    "src": "media/almizan/bids.png",
+                    "alt": "Supplier bid submission interface",
+                    "type": "img"
+                },
+                {
+                    "src": "media/almizan/analysis.png",
+                    "alt": "AI-assisted bid analysis",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": null
+            }
+        },
+        {
+            "slug": "traçouf",
+            "title": "Traçouf",
+            "subtitle": "Industrial Wool Traceability & Audit Ecosystem",
+            "summary": "A large-scale digitalization platform for the wool supply chain, featuring multi-platform synchronization, rigorous auditing stages, and AI-driven process monitoring.",
+            "details": [
+                "End-to-End Traceability: Digitalized the entire lifecycle of wool from harvesting to final transformation, implementing mandatory audit checkpoints at each transition (Harvest, Depot, Washing, Processing).",
+                "Multi-Platform Architecture: Developed a synchronized ecosystem comprising a Kotlin mobile app for field harvesters, an operator web portal for facility management, and an advanced admin dashboard.",
+                "AI Audit Assistant: Integrated a chatbot capable of analyzing real-time supply chain data to provide operational insights and trigger automated alerts for process anomalies.",
+                "Cloud-Native Infrastructure: Built using a Microservices architecture and containerized with Docker to ensure high availability, scalability, and modular maintenance."
+            ],
+            "stack": [
+                "Microservices",
+                "Docker",
+                "Kotlin (Mobile)",
+                "Next.js",
+                "AI Chatbot",
+                "Supply Chain Logics"
+            ],
+            "media": [
+                {
+                    "src": "media/tracouf/sources.png",
+                    "alt": "Supply chain sources",
+                    "type": "img"
+                },
+                {
+                    "src": "media/tracouf/tournee.png",
+                    "alt": "Current destinations",
+                    "type": "img"
+                },
+                {
+                    "src": "media/tracouf/tournee2.png",
+                    "alt": "Recolted from source",
+                    "type": "img"
+                },
+                {
+                    "src": "media/tracouf/map1.png",
+                    "alt": "Interactive map",
+                    "type": "img"
+                },
+                {
+                    "src": "media/tracouf/map2.png",
+                    "alt": "Intelligent pathfinding",
+                    "type": "img"
+                },
+                {
+                    "src": "media/tracouf/profil.png",
+                    "alt": "Profil",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": null
+            }
+        },
+        {
+            "slug": "incop-email",
+            "title": "Incop Email",
+            "subtitle": "High-Volume Email Marketing Engine",
+            "summary": "A professional-grade emailing platform designed for large-scale campaigns with real-time tracking and performance analytics.",
+            "details": [
+                "Advanced Tracking System: Custom-built engine to monitor email opens, link clicks, and total response rates in real-time.",
+                "Campaign Management: Full lifecycle control from audience segmentation to automated scheduling and delivery.",
+                "Data-Driven Analytics: Comprehensive KPI dashboard providing actionable insights on campaign reach and conversion performance."
+            ],
+            "stack": [
+                "Node.js",
+                "Express",
+                "PostgreSQL",
+                "Tracking Pixels",
+                "SMTP/Email Services"
+            ],
+            "media": [
+                {
+                    "src": "incop-analytics.png",
+                    "alt": "Incop Performance Dashboard",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": null
+            }
+        },
+        {
+            "slug": "dar-hattan",
             "title": "Dar Hattan",
-            "description": "A full-stack e-commerce platform for selling premium qamis, built with React and Node.js. It features a smooth user experience, intuitive product browsing, secure ordering, and a comprehensive admin panel for managing products, orders, and users.",
-            "github": false,
-            "demo": "https://dar-hattan.com/"
+            "subtitle": "E-commerce (React + Node.js)",
+            "summary": "Full‑stack e‑commerce platform for premium qamis with a smooth shopping experience and an admin back‑office.",
+            "details": [
+                "Product catalog with categories, search, and product details",
+                "Order flow with customer information capture and confirmation",
+                "Admin panel to manage products, orders, and users"
+            ],
+            "stack": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB"
+            ],
+            "media": [
+                {
+                    "src": "emotion.png",
+                    "alt": "Dar Hattan preview",
+                    "type": "img"
+                },
+                {
+                    "src": "blog.png",
+                    "alt": "Storefront screenshot",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": "https://dar-hattan.com/"
+            }
         },
         {
-            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "slug": "financeit",
             "title": "FinanceIT",
-            "description": "This AI-powered platform is designed for businesses to streamline their monthly transaction analysis. After uploading transaction data, the AI organizes and analyzes the information, generating reports with actionable insights for improvement. Additionally, it provides forecasts for the next month's expected transactions.",
-            "github": false,
-            "demo": "https://apicalypse.vercel.app/"
+            "subtitle": "AI reporting & forecasting",
+            "summary": "AI‑assisted platform to organize monthly transactions, generate insights, and forecast expected activity.",
+            "details": [
+                "Upload transaction data and get structured categorization",
+                "Auto-generated reports with actionable observations",
+                "Forecasting for next month based on historical patterns"
+            ],
+            "stack": [
+                "React",
+                "AI",
+                "Data processing"
+            ],
+            "media": [
+                {
+                    "src": "codeEditor.png",
+                    "alt": "FinanceIT dashboard",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": "https://apicalypse.vercel.app/"
+            }
         },
         {
-            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "slug": "makeup-by-yam",
             "title": "Makeup By Yam",
-            "description": "A website made for a make up artist. It allowed her to showcase her work, advertise her services, and build an online presence. An admin panel was made to allow her to edit any section or service on the website.",
-            "github": false,
-            "demo": "https://makeup-yam.com/"
+            "subtitle": "Portfolio + admin panel",
+            "summary": "Website for a makeup artist to showcase work, promote services, and edit content via an admin panel.",
+            "details": [
+                "Gallery-style presentation of past work",
+                "Service listing and contact conversion flow",
+                "Admin panel to update sections and services"
+            ],
+            "stack": [
+                "React",
+                "Admin panel"
+            ],
+            "media": [
+                {
+                    "src": "chatify.png",
+                    "alt": "Makeup By Yam homepage",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": "https://jude-beauty.netlify.app/"
+            }
         },
         {
-            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "slug": "lego-creation",
             "title": "Lego Creation",
-            "description": "A web game made for the Welcome Day of ETIC Club. Users can assemble and create their personal lego characters, while practicing their CSS skills! Beginners can also learn the basics of HTML and CSS through the help page.",
-            "github": false,
-            "demo": "https://lego-creation.vercel.app/"
+            "subtitle": "Web game (HTML/CSS learning)",
+            "summary": "Interactive web game for ETIC Club Welcome Day: build a LEGO character while practicing CSS.",
+            "details": [
+                "Character builder with visual feedback",
+                "Beginner-friendly help page (HTML/CSS basics)",
+                "Event-oriented experience for quick onboarding"
+            ],
+            "stack": [
+                "React",
+                "HTML",
+                "CSS"
+            ],
+            "media": [
+                {
+                    "src": "media/lego/home.png",
+                    "alt": "Home screen",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": "https://lego-creation.vercel.app/"
+            }
         },
         {
-            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "slug": "dari-facile-plus",
             "title": "EURL Dari Facile Plus",
-            "description": "An e-commerce website for the company 'EURL Dari Facile Plus' specialized in selling household products. This web app allowed it to put up its products online, while also using meta ads more effectively, thereby increasing its sales.",
-            "github": false,
-            "demo": "https://darifacileplus.dz/"
+            "subtitle": "E-commerce for household products",
+            "summary": "E‑commerce website to publish products online and support acquisition campaigns (Meta Ads).",
+            "details": [
+                "Online product listing to complement offline sales",
+                "Landing experience optimized for ad traffic",
+                "Improved visibility and conversion with structured product pages"
+            ],
+            "stack": [
+                "React",
+                "E-commerce"
+            ],
+            "media": [
+                {
+                    "src": "blog.png",
+                    "alt": "Dari Facile Plus preview",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": "https://darifacileplus.dz/"
+            }
         },
         {
-            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "slug": "the-castle-school",
             "title": "The Castle School",
-            "description": "A landing page for a school focusing on language courses. It wanted to have an official online identity while starting to work on its online presence. An admin page was made to allow it to edit any section on the website.",
-            "github": false,
-            "demo": "https://thecastleschool.netlify.app/"
+            "subtitle": "Landing page + CMS-like editing",
+            "summary": "Official landing page for a language school with an admin page to update website sections.",
+            "details": [
+                "Clear program/service sections for quick comprehension",
+                "Admin page to edit content without redeploy",
+                "Designed to establish a credible online presence"
+            ],
+            "stack": [
+                "React",
+                "Admin page"
+            ],
+            "media": [
+                {
+                    "src": "emotion.png",
+                    "alt": "The Castle School preview",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": "https://thecastleschool.netlify.app/"
+            }
         },
         {
-            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "slug": "lux-glucocheck",
             "title": "Lux GlucoCheck",
-            "description": "Official website of a startup, fully made of student. Their creative solution combines engineering to break into the medical field. To protect their idea, they had to sign up in startup.dz, thereby needing an online presence. An admin page was made to allow them to edit any section on the website.",
-            "github": false,
-            "demo": "https://lgc-dz.com/"
+            "subtitle": "Startup website + admin",
+            "summary": "Official website for a student startup (medical/engineering) with editable sections via admin.",
+            "details": [
+                "Startup presentation with clear value proposition",
+                "Admin page for content updates",
+                "Built to support official registration and visibility"
+            ],
+            "stack": [
+                "React",
+                "Admin page"
+            ],
+            "media": [
+                {
+                    "src": "chatify.png",
+                    "alt": "Lux GlucoCheck preview",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": null,
+                "demo": "https://lgc-dz.com/"
+            }
         },
         {
-            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "slug": "etic-check",
             "title": "ETIC Check",
-            "description": "A check-in website made for ETIC club. It allows to automate the check-in of events' participants with QR codes sent prior. Each QR code is only usable once to avoid its abuse if leaked.<br>To test it out:<br>Username: Manil<br>Password: manil2004",
-            "github": "https://github.com/xRyolinx/etic-check/",
-            "demo": "https://etic-check.onrender.com/"
+            "subtitle": "Event check-in with QR codes",
+            "summary": "Check‑in web app for event participants using one‑time QR codes to prevent reuse/abuse.",
+            "details": [
+                "QR-based check-in workflow",
+                "One-time token validation to prevent duplicates",
+                "Designed for fast scanning during events"
+            ],
+            "stack": [
+                "React",
+                "Node.js",
+                "QR Codes"
+            ],
+            "media": [
+                {
+                    "src": "suicide.png",
+                    "alt": "ETIC Check screen",
+                    "type": "img"
+                },
+                {
+                    "src": "codeEditor.png",
+                    "alt": "Admin / dashboard",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": "https://github.com/xRyolinx/etic-check/",
+                "demo": "https://etic-check.onrender.com/"
+            },
+            "notesHtml": "To test it out:<br>Username: Manil<br>Password: manil2004"
         },
         {
-            "img": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+            "slug": "taste-it",
             "title": "Taste IT",
-            "description": "A multi-seller plateform in the food industry. It allows people to create an account to buy from stores, while allowing them to create multiple stores to sell their own products online. Ideal for lovers of home made dishes.",
-            "github": "https://github.com/xRyolinx/tasteit",
-            "demo": false
+            "subtitle": "Multi-seller food marketplace",
+            "summary": "Marketplace where customers buy from stores and sellers can create multiple stores to sell homemade dishes.",
+            "details": [
+                "Multi-seller architecture (customers + store owners)",
+                "Store creation and product publishing workflow",
+                "Account-based ordering experience"
+            ],
+            "stack": [
+                "React",
+                "Node.js",
+                "Marketplace"
+            ],
+            "media": [
+                {
+                    "src": "leaf.png",
+                    "alt": "Taste IT preview",
+                    "type": "img"
+                }
+            ],
+            "links": {
+                "github": "https://github.com/xRyolinx/tasteit",
+                "demo": null
+            }
         }
     ]
 }

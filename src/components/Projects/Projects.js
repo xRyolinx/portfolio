@@ -2,16 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-import projectsJSON from './projects.json'
+import projectsJSON from "./projects.json";
+import { normalizeProjectMedia } from "./projectMedia";
 
 function Projects() {
-  const projects = projectsJSON["projects"]
+  const projects = projectsJSON["projects"];
   return (
     <Container id="projects" fluid className="project-section">
       <Particle />
@@ -25,14 +20,19 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {
             projects.map((project) => (
-              <Col md={4} className="project-card">
+              <Col md={6} className="project-card" key={project.slug || project.title}>
                 <ProjectCard
-                  imgPath={project.img}
                   isBlog={false}
                   title={project.title}
+                  subtitle={project.subtitle}
+                  summary={project.summary}
                   description={project.description}
-                  ghLink={project.github}
-                  demoLink={project.demo}
+                  details={project.details}
+                  stack={project.stack}
+                  media={normalizeProjectMedia(project?.media, project?.video)}
+                  notesHtml={project.notesHtml}
+                  ghLink={project?.links?.github ?? project.github}
+                  demoLink={project?.links?.demo ?? project.demo}
                 />
               </Col>
             ))
